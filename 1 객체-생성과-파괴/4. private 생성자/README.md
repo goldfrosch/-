@@ -10,7 +10,7 @@
 
 ```
   public class Test {
-    private Test {
+    private Test() {
       throw new AssertionError();
     }
   }
